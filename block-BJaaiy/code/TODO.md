@@ -1,4 +1,4 @@
-## Using node and NPM
+## Using node and NPM *DONE*
 
 - Create a folder and initialize it with NPM
 - Add a package named `parcel-bundler`
@@ -6,13 +6,13 @@
 - Use the `moment` library (https://momentjs.com/)
 - Also use the `lodash` library
 
-#### Use the following links to read documentation
+#### Use the following links to read  *DONE*
 
 - [Parcel Bundler](https://parceljs.org/)
 - [Moment JS](https://momentjs.com/)
 - [Lodash](https://lodash.com/docs/4.17.15)
 
-#### Use moment to do the following things:
+#### Use moment to do the following things: *DONE*
 
 Print Date or Time in the following format:
 
