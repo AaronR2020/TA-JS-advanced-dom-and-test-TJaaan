@@ -25,6 +25,16 @@ while(a>1){
 return a;
 }
 
+function removeFromArray(arr,val){
+  let arrNew=[]
+  for(let i=0;i<arr.length;i++){
+    if(arr[i]!=val){
+      arrNew.push(arr[i])
+    }
+  }
+  return arrNew;
+}
+
 module.exports = {
   add,
   subtract,
@@ -32,4 +42,5 @@ module.exports = {
   multiply,
   power,
   factorial,
+  removeFromArray
 };
