@@ -1,14 +1,29 @@
-function add() {}
+function add(a,b) {
+  return a+b;
+}
 
-function subtract() {}
+function subtract(a,b) {
+  return a-b;
+}
 
-function sum() {}
+function sum(a,b) {
+  return a+b;
+}
 
-function multiply() {}
+function multiply(a,b) {
+  return a*b;
+}
 
-function power() {}
+function power(a,b) {
+  return Math.pow(a,b);
+}
 
-function factorial() {}
+function factorial(a) {
+while(a>1){
+  a*=a-1;
+}
+return a;
+}
 
 module.exports = {
   add,
